@@ -17,7 +17,7 @@ console.log(userWord2);
 
 function checkPalindrom2(userWord2) {
     var x = userWord2.length - 1;
-    for (var i = 0; i <= userWord2.length, x <= userWord2.length, x >= 0; i++, x--) {
+    for (var i = 0; i <= userWord2.length, x >= 0; i++, x--) {
         if (userWord2[i] === userWord2[x]) {
             return true;
         } else {
